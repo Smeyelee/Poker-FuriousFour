@@ -101,7 +101,7 @@ public class PokerGame extends Application {
 	 * This method suffles the deck of cards array producing a random order for the numbers.
 	 * It then creates the full file name for the 5 cards based on the numbers in the first
 	 * 5 places in the array.  Finally it creates the Image from the file and sets the 
-	 * ImageView
+	 * ImageView.
 	 */
 	private void newHand() {
 		Utilities.shuffle(deckOfCardsPosition);
